@@ -1,0 +1,215 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+
+
+
+
+
+/*header part responsive design start */
+.header {
+	text-align: center;
+}
+
+
+#banner_part {
+	
+	display: none;
+}
+
+/*service hasbeen start */	
+
+#service_part {
+	padding: 25px 0px;
+
+}
+
+
+.service_text p {
+	font-size: 13px;
+	padding: 1px 66px;
+	
+}
+.service_text h2 {
+	font-size: 22px;	
+	padding: 10px;
+	
+}
+
+
+.service_product {
+	padding-bottom: 30px;
+}
+.image_descrive p {
+	font-size: 15px;
+	padding-top: 20px;
+	text-align: justify;
+}
+
+
+.service_image {
+position: absolute;
+left:80%;
+font-size: 15px;
+}
+.image_descrive p {
+font-size: 15px;
+
+padding-top: 30px;
+
+text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+/*small design end */
+
+}
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	/*header part responsive design start */
+	.header {
+        text-align: center;
+    }
+
+	
+	.banner_part {
+		text-align: center;
+	}
+	
+	
+	.banner_text ul li a{
+
+		font-size: 17px !important;
+
+	}
+	
+	.banner_text h2 {
+		
+		font-size: 19px;
+		
+	}
+
+
+
+
+	.banner_text p {
+		
+		font-size: 14px;
+		
+	}
+	.banner_text h5 {
+	
+		font-size: 11px;
+		
+	}
+
+
+	
+/*service hasbeen end */	
+
+.service_text p {
+	font-size: 30px;
+	padding: 0px 40px;
+	
+}
+
+.service_image {
+	position: absolute;
+	left:80%;
+	font-size: 15px;
+}
+.image_descrive p {
+	font-size: 15px;
+	
+	padding-top: 30px;
+	
+	text-align: justify;
+}
+
+
+
+
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/*header part responsive design start */
+   .header {
+        text-align: center;
+	}
+	
+
+
+.banner_part {
+	text-align: center;
+}
+
+
+
+
+.banner_text ul li a {
+	color: black !important;
+	display: inline-block;
+	font-size: 30px !important;
+	padding: 30px 20px;
+}
+
+
+.service_text p {
+	font-size: 30px;
+	padding: 0px 40px;
+	
+}
+
+.service_image {
+	position: absolute;
+	left:60%;
+	font-size: 15px;
+}
+.image_descrive p {
+	font-size: 15px;
+	
+	padding-top: 30px;
+	
+	text-align: justify;
+}
+
+
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+/* alll content is exactaly right now */
+.header {
+	text-align: center;
+}
+
+
+
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    
+
+
+
+
+
+ }

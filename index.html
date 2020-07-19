@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payoneer Account</title>
+    <!--fontawsome css link-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--bootstarp  css link-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--custom css link-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--responsvie css link-->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="full_login">
+                    <!----this is header area-->
+                    <div class="heder text-center p-5" id="login_header">
+                        <h1>Wel Come <span class="payoneer">Payoneer </span> Account</h1>
+                    </div>
+                    <!----this is header area end-->
+                    <!--this is login area -->
+                    <div id="login_area">
+                            <h4 class="m-4">login</h4>
+                            <input type="email" placeholder="write your email" class="form-control m-4">
+                            <input type="password" placeholder="password" class="form-control m-4">
+                            <button class="btn btn-success m-4" id="subMitButton">login</button>
+                    </div>
+                    <!--this is login area end -->
+                </div>
+            </div>
+        </div>
+<!--this is transation area start-->
+<div id="transation_area">
+    <div class="row pt-5">
+        <!--this isdepoiste part --->
+            <div class="col-md-4">
+                <div class="deposite custom_style">
+                    <h5>Deposite</h5>
+                    <h2>$<span id="currentDeposite">00</span> </h2>
+                </div>
+            </div>
+<!--this is with drow area-->
+            <div class="col-md-4">
+                <div class="withdrow custom_style">
+                    <h5>withdrow</h5>
+                    <h2>$<span id="whidrowSpan">00</span></h2>
+                </div>
+            </div>
+<!--blance area start-->
+            <div class="col-md-4">
+                <div class="blance custom_style">
+                    <h5>Blance</h5>
+                    <h2>$ <span id="currentblance">00</span></h2>
+                </div>
+            </div>
+        </div>
+<!--deposte area and submit area-->
+<div class="row mt-5">
+    <div class="col-md-6">
+        <div class="depsite_area mt-5">
+            <h3>Deposite</h3>
+            <input type="text" class="form-control" placeholder="$ amount you want to deposite area" id="depositeAmount">
+            <button class="btn btn-success mt-4 buttonHoverefect" id="depositButton">Deposite</button>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="depsite_area mt-5">
+            <h3>With Drow</h3>
+            <input  type="text" class="form-control" placeholder="$ amount you want to withdrow" id="widthRowAmonunt" >
+            <button class="btn btn-success mt-4 buttonHoverefect" id="WithDrowBtn">Withdrow</button>
+        </div>
+    </div>
+</div>
+</div>
+<!--this is transation area end-->
+    </div>
+    <!--script start -->
+    <!--fontawsome js link -->
+    <!--bootstarp js link-->
+    <!--custom js link ----->
+    <script src="js/custom.js"></script>
+</body>
+</html>

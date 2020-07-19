@@ -1,0 +1,114 @@
+
+
+
+
+/*this part of login area part*/
+
+#login_area{
+
+box-shadow: 5px 5px 10px gray;
+padding: 100px;
+border-radius: 4px;
+
+
+}
+
+/*this part of login area part end*/
+
+
+/*transjation part start */
+
+
+
+#transation_area{
+
+    display: none;
+
+}
+
+
+.deposite{
+
+background-color: blue;
+}
+
+.withdrow{
+background-color: lightsalmon;
+
+}
+
+
+.blance{
+
+background-color: orangered;
+
+}
+
+
+.custom_style{
+
+padding: 20px;
+color: #ffffff;
+border-radius: 10px;
+
+}
+
+
+
+.depsite_area{
+
+    box-shadow: 5px 5px 10px gray;
+    padding: 100px;
+    border-radius: 4px;
+
+
+
+}
+
+
+
+.payoneer{
+
+color: red;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 40px;
+font-style: italic;
+}
+
+#subMitButton:hover{
+
+background: transparent;
+color: green;
+
+
+}
+
+
+.buttonHoverefect:hover{
+
+background: transparent;
+font-weight: bold;
+color: red;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*transjation part end*/
+
+
+
+
+
+
